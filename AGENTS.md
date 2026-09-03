@@ -7,4 +7,7 @@
 >
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
+>
+> This repo is now a Go CLI (`go build -o ai-console-watch .`), not a Lovable
+> React app. Further Lovable editor edits will not match this codebase.
 <!-- LOVABLE:END -->

@@ -1,12 +1,8 @@
 # Logs
 logs
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
 
+# Node leftovers (if any)
 node_modules
 dist
 dist-ssr
@@ -15,18 +11,17 @@ dist-ssr
 .tanstack/**
 .nitro
 *.local
-
-# Wrangler / Cloudflare
 .wrangler/
 .dev.vars
 
-# Editor directories and files
+# Go
+/ai-console-watch
+*.exe
+*.test
+*.out
+
+# Editor
 .vscode/*
 !.vscode/extensions.json
 .idea
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
